@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net4.6.1;netcoreapp3.1;net5.0;net6.0</TargetFrameworks>		
+		<Version>1.0.0.1</Version>
+		<Authors>MD FAISAL</Authors>
+		<Company>Programming Palli</Company>
+		<Copyright>2023 Programming Palli</Copyright>
+		<PackageProjectUrl>https://github.com/faisalcse1/MicroORM.MySQL</PackageProjectUrl>		
+		<RepositoryUrl>https://github.com/faisalcse1/MicroORM.MySQL</RepositoryUrl>
+		<PackageTags>MicroORM;micro-orm;dapper-mysql;MySQL;C#;orm;dapper;dapper-extension;</PackageTags>
+		<Title>Micro ORM MySQL</Title>
+		<PackageId>MicroORM.MySQL</PackageId>
+		<Description>A high-performance Micro-ORM supporting MySQL Server database. This is the extension version for easy to configure and use.</Description>
+		
+		
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.123" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+		<PackageReference Include="MySql.Data" Version="8.0.32.1" />
+	</ItemGroup>
+
+</Project>
