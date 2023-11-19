@@ -53,7 +53,7 @@ Controller code sample.
         [HttpGet]
         public IActionResult GetAll()
         {
-            ApplicationDbContext dbContext = new DbContext();
+            ApplicationDbContext dbContext = new ApplicationDbContext();
             var data= dbContext.Query<ReturnType>("Query").ToList();
             return Ok(data);
         }        
